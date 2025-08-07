@@ -17,3 +17,13 @@ class ProductPageLocators():
     alert_book_name = (By.TAG_NAME, "strong")
     book_info = (By.CSS_SELECTOR, ".product_main")
     book_name = (By.TAG_NAME, 'h1')
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_libk_inc")
+
+class BasketPageLocators():
+    button = (By.CSS_SELECTOR, ".btn-group")
+    basket_link = (By.TAG_NAME, "a") 
+    basket_text = (By.CSS_SELECTOR, "#content_inner")
